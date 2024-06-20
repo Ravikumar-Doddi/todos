@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+.container {
+  background-color: grey;
+  row-gap: 20px;
+}
+.checked {
+  text-decoration: line-through;
+}
+.checkCont {
+  display: flex;
+}
+.edit {
+  cursor: pointer;
+}
+.child {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 20px;
+  margin-top: 20px;
+}
